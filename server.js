@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3001;
 app.use(cors({
     origin: [
         'http://localhost:5173',  // Local Vite development server
-        'https://your-netlify-app.netlify.app', // Replace with your Netlify domain
+        'https://get-it-dn.netlify.app', // Replace with your Netlify domain
     ],
     methods: ['GET', 'POST'],
     credentials: true
